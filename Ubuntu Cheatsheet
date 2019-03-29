@@ -1,0 +1,5 @@
+Open PostgreSQL:
+sudo -u postgres psql postgres
+
+Exit Session:
+exit
