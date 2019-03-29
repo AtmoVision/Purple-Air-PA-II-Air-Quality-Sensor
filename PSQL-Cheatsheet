@@ -1,0 +1,8 @@
+To connect to PostgreSQL from Linux use the following command:
+sudo -u postgres psql postgres
+
+Commands:
+\l        - List Databases
+\c <name> - Connect to Database.
+\dt       - List Tables
+\q        - Quit PSQL session.
