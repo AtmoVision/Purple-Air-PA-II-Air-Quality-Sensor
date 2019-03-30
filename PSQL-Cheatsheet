@@ -26,3 +26,6 @@ CREATE TABLE <name>
   
 Grant all permissions for table:
 GRANT ALL on <tablename> TO <username>;
+
+Alter table owner to:
+ALTER TABLE <name> OWNER TO <username>;
