@@ -10,12 +10,19 @@ Commands:
 \q        - Quit PSQL session.
 
 Examples:
-Simple create a table:
+Create a simple table:
 CREATE TABLE <name>
   (
   <varname> <vartype>,
   <varname> <vartype>
   );
+  
+For JSON data:
+CREATE TABLE <name>
+  (
+  ID serial NOT NULL PRIMARY KEY,
+  data json NOT NULL
+);
   
 Grant all permissions for table:
 GRANT ALL on <tablename> TO <username>;
