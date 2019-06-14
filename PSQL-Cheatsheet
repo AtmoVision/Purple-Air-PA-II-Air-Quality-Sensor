@@ -29,3 +29,6 @@ GRANT ALL on <tablename> TO <username>;
 
 Alter table owner to:
 ALTER TABLE <name> OWNER TO <username>;
+
+Alter database owner to:
+ALTER DATABASE <target_database> OWNER TO <new_onwer>;
