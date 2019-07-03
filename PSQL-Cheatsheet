@@ -16,7 +16,10 @@ CREATE TABLE <name>
   <varname> <vartype>,
   <varname> <vartype>
   );
-  
+
+Commonly used vartype's:
+smallint, integer, varchar(size), timestamptz
+
 For JSON data:
 CREATE TABLE <name>
   (
