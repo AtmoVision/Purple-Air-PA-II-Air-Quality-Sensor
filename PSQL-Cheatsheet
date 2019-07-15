@@ -38,3 +38,6 @@ ALTER DATABASE <target_database> OWNER TO <new_onwer>;
 
 Set the timezone of the database example:
 SET timezone = 'America/Chicago';
+
+Delete records from a table:
+DELETE FROM <tablename> WHERE <column> <conditional-statement> <value>;
