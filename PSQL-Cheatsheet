@@ -41,3 +41,6 @@ SET timezone = 'America/Chicago';
 
 Delete records from a table:
 DELETE FROM <tablename> WHERE <column> <conditional-statement> <value>;
+
+Describe the characteristics of a table (column names, column types):
+\d <tablename>;
