@@ -44,3 +44,7 @@ DELETE FROM <tablename> WHERE <column> <conditional-statement> <value>;
 
 Describe the characteristics of a table (column names, column types):
 \d <tablename>;
+
+Adding a column to an existing table:
+ALTER TABLE <tablename>
+ADD COLUMN <column name> <column type>;
