@@ -10,6 +10,9 @@ Commands:
 \q        - Quit PSQL session.
 
 Examples:
+Create a user:
+CREATE USER <username> WITH ENCRYPTED PASSWORD '<password';
+
 Create a simple table:
 CREATE TABLE <name>
   (
