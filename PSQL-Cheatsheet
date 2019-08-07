@@ -9,6 +9,7 @@ Commands:
 \dt             - List Tables
 \q              - Quit PSQL session.
 \d <tablename>  - Describe the characteristics of a table (column names, column types).
+
 Examples:
 Create a user:
 CREATE USER <username> WITH ENCRYPTED PASSWORD '<password';
