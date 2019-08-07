@@ -4,11 +4,11 @@ To connect to PostgreSQL from Linux use the following command:
 sudo -u <username> psql <username>
 
 Commands:
-\l        - List Databases
-\c <name> - Connect to Database.
-\dt       - List Tables
-\q        - Quit PSQL session.
-
+\l              - List Databases
+\c <name>       - Connect to Database.
+\dt             - List Tables
+\q              - Quit PSQL session.
+\d <tablename>  - Describe the characteristics of a table (column names, column types).
 Examples:
 Create a user:
 CREATE USER <username> WITH ENCRYPTED PASSWORD '<password';
@@ -44,9 +44,6 @@ SET timezone = 'America/Chicago';
 
 Delete records from a table:
 DELETE FROM <tablename> WHERE <column> <conditional-statement> <value>;
-
-Describe the characteristics of a table (column names, column types):
-\d <tablename>;
 
 Adding a column to an existing table:
 ALTER TABLE <tablename>
